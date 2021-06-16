@@ -44,7 +44,7 @@ tape( 'if an environment supports `Int8Array`, the export is an alias for `Int8A
 	var Foo;
 
 	Foo = proxyquire( './../lib', {
-		'@stdlib/assert/has-int8array-support': isTrue,
+		'@stdlib/assert-has-int8array-support': isTrue,
 		'./int8array.js': Mock
 	});
 	t.strictEqual( Foo, Mock, 'returns builtin' );
@@ -68,7 +68,7 @@ tape( 'if an environment does not support `Int8Array`, the export is a polyfill'
 	var Foo;
 
 	Foo = proxyquire( './../lib', {
-		'@stdlib/assert/has-int8array-support': isFalse
+		'@stdlib/assert-has-int8array-support': isFalse
 	});
 
 	t.strictEqual( Foo, polyfill, 'returns polyfill' );

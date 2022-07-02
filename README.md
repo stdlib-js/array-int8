@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.Int8Array;
+})();
 })();
 </script>
 ```
@@ -1428,6 +1430,7 @@ var bool = it.next().done;
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-int8@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var arr;
 var i;
@@ -1438,6 +1441,7 @@ for ( i = 0; i < arr.length; i++ ) {
 }
 console.log( arr );
 
+})();
 })();
 </script>
 </body>
@@ -1551,23 +1555,23 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/array/buffer]: https://github.com/stdlib-js/array-buffer/tree/umd
+[@stdlib/array/buffer]: https://github.com/stdlib-js/array-buffer/tree/umd/tree/umd
 
-[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32/tree/umd
+[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32/tree/umd/tree/umd
 
-[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64/tree/umd
+[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64/tree/umd/tree/umd
 
-[@stdlib/array/int16]: https://github.com/stdlib-js/array-int16/tree/umd
+[@stdlib/array/int16]: https://github.com/stdlib-js/array-int16/tree/umd/tree/umd
 
-[@stdlib/array/int32]: https://github.com/stdlib-js/array-int32/tree/umd
+[@stdlib/array/int32]: https://github.com/stdlib-js/array-int32/tree/umd/tree/umd
 
-[@stdlib/array/uint16]: https://github.com/stdlib-js/array-uint16/tree/umd
+[@stdlib/array/uint16]: https://github.com/stdlib-js/array-uint16/tree/umd/tree/umd
 
-[@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32/tree/umd
+[@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32/tree/umd/tree/umd
 
-[@stdlib/array/uint8]: https://github.com/stdlib-js/array-uint8/tree/umd
+[@stdlib/array/uint8]: https://github.com/stdlib-js/array-uint8/tree/umd/tree/umd
 
-[@stdlib/array/uint8c]: https://github.com/stdlib-js/array-uint8c/tree/umd
+[@stdlib/array/uint8c]: https://github.com/stdlib-js/array-uint8c/tree/umd/tree/umd
 
 <!-- </related-links> -->
 

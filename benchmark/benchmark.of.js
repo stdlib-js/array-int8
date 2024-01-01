@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var isInt8Array = require( '@stdlib/assert-is-int8array' );
 var pkg = require( './../package.json' ).name;
 var Int8Array = require( './../lib' );

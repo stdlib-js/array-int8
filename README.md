@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import Int8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int8@deno/mod.js';
+import Int8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int8@v0.2.2-deno/mod.js';
 ```
 
 #### Int8Array()
@@ -1409,7 +1409,7 @@ var bool = it.next().done;
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
-import ctor from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int8@deno/mod.js';
+import ctor from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int8@v0.2.2-deno/mod.js';
 
 var arr;
 var i;

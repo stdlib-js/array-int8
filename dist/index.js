@@ -1,4 +1,4 @@
-"use strict";var e=function(u,r){return function(){return r||u((r={exports:{}}).exports,r),r.exports}};var o=e(function(y,i){"use strict";var a=typeof Int8Array=="function"?Int8Array:void 0;i.exports=a});var s=e(function(q,n){"use strict";function l(){throw new Error("not implemented")}n.exports=l});var p=require("@stdlib/assert-has-int8array-support"),c=o(),f=s(),t;p()?t=c:t=f;module.exports=t;
+"use strict";var e=function(u,r){return function(){try{return r||u((r={exports:{}}).exports,r),r.exports}catch(a){throw r=0,a}}};var o=e(function(q,i){"use strict";var l=typeof Int8Array=="function"?Int8Array:void 0;i.exports=l});var s=e(function(x,n){"use strict";function p(){throw new Error("not implemented")}n.exports=p});var c=require("@stdlib/assert-has-int8array-support"),f=o(),v=s(),t;c()?t=f:t=v;module.exports=t;
 /**
 * @license Apache-2.0
 *
